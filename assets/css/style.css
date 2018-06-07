@@ -3,7 +3,7 @@ html {
     height: 100%;
   }
   body {
-      background-image: url("../images/dust_scratches.png");
+      background-image: url("../images/funky-lines.png");
       background-size: 100%;
       min-height: 100%;
       width: 100%;
@@ -71,7 +71,7 @@ html {
   }
   .primary-box {
       width: 620px;
-      height: 340px;
+      height: 500px;
       display: inline-block;
       background: #fff;
       padding: 15px 5px;
@@ -96,7 +96,7 @@ html {
   }
   aside {
       width: 250px;
-      height: auto;
+      height: 125px;
       display: inline-block;
       background: #fff;
       padding: 15px;
@@ -178,6 +178,7 @@ html {
   }
   .text-wrap {
       position: relative;
+      font-size: 18px;
       top: 70px;
       left: 5px
   }
@@ -194,8 +195,11 @@ html {
       padding: 5px;
       margin: 10px 5px;
   }
+  input {
+      height: 20px;
+  }
   textarea {
-      height: 50px;
+      height: 200px;
   }
   .portfolio-image-div {
       position: relative;
@@ -255,6 +259,7 @@ html {
       position: absolute;
       padding: 25px 0;
       text-decoration: none;
+      font-size: 18px;
       
   }
   /* Header */
@@ -262,7 +267,7 @@ html {
       display: inline-block;
       background: #4aaaa5;
       padding: 30px 15px;
-      font: small-caps 700 20px/26px Georgia, Times, "Times New Roman", serif;
+      font: small-caps 700 22px/26px Georgia, Times, "Times New Roman", serif;
       color: #eee;
       text-align: center;
       position: relative;
